@@ -1,3 +1,5 @@
+// Variables 
+
 let computerWins = 0;
 let playerWins = 0;
 let maxWin = 5;
