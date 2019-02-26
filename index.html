@@ -4,8 +4,19 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Rock, Paper and Scissors</title>
-	<meta name="description">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="
+	Paper-stone-scissors game made purely in JavaScript">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS Custom -->
+	<link href="game/game.css" type="text/css" rel="stylesheet">
+
+	<!-- Font Awesome -->
+	<link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet"  integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+
 </head>
 <body>
 
@@ -14,16 +25,16 @@
 
 	<!-- Messages -->
 
-	<section id="message">
+	<section>
 		<div id="resultMessage"></div>
 	</section>
 
 	<!-- Choices -->
 
-	<section>
-		<button class="choice" id="rock">Rock</button>
-		<button class="choice" id="paper">Paper</button>
-		<button class="choice" id="scissors">Scissors</button>
+	<section id="sectionButtons">
+		<button class="choice" id="rock"><i class="far fa-hand-rock"></i></button>
+		<button class="choice" id="paper"><i class="far fa-hand-paper"></i></i></button>
+		<button class="choice" id="scissors"><i class="far fa-hand-scissors"></i></button>
 	</section>
 
 	<!-- Score and Winner -->

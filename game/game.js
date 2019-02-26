@@ -30,7 +30,7 @@ function buttonsInit(element) {
 
 		addEventListenerAll(btn, 'click drag', e=> {
 
-			let textButtons = (btn.innerHTML);
+			let textButtons = (btn.id);
 
 			startRound(textButtons, computerPlayed());
 
@@ -53,11 +53,11 @@ function computerPlayed() {
 	let played = getPlayed(1,3);
 
 	if (played == 1) {
-		return ("Paper");
+		return ("paper");
 	} else if (played == 2) {
-		return ("Scissors");
+		return ("scissors");
 	} else {
-		return ("Rock");
+		return ("rock");
 	}
 
 }
@@ -66,10 +66,10 @@ function startRound(playerSelection, computerSelection) {
 
 
 	switch (playerSelection) {
-		case "Paper":
+		case "paper":
 			if (computerSelection == playerSelection) {
 				message.innerHTML = "It's a Draw!";
-			} else if (computerSelection == "Scissors") {
+			} else if (computerSelection == "scissors") {
 				computerWins++;
 				message.innerHTML = "Computer Wins! Scissors beats Paper";
 			} else {
@@ -78,10 +78,10 @@ function startRound(playerSelection, computerSelection) {
 			}
 		break;	
 
-		case "Rock":
+		case "rock":
 			if (computerSelection == playerSelection) {
 				message.innerHTML = "It's a Draw!";
-			} else if (computerSelection == "Paper") {
+			} else if (computerSelection == "paper") {
 				computerWins++;
 				message.innerHTML = "Computer Wins! Paper beats Rock";
 			} else {
@@ -90,10 +90,10 @@ function startRound(playerSelection, computerSelection) {
 			}
 		break;
 		
-		case "Scissors":
+		case "scissors":
 			if (computerSelection == playerSelection) {
 				message.innerHTML = "It's a Draw!";
-			} else if (computerSelection == "Rock") {
+			} else if (computerSelection == "rock") {
 				computerWins++;
 				message.innerHTML = "Computer Wins! Rock beats Scissors";
 			} else {

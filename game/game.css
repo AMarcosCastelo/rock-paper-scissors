@@ -1,0 +1,86 @@
+body {
+
+    background-color: black;
+    font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+main {
+    position: relative;
+    text-align: center;
+    margin-top: 10%;
+    display: block;
+}
+
+h1 {
+
+    color: white;
+    font-size: 40px;
+
+}
+
+#sectionButtons {
+
+    margin-bottom: 20px;
+
+}
+
+.choice {
+    background-color: black;
+    border: none;
+    margin: 20px 30px;
+    cursor: pointer;
+}
+
+.fa-hand-rock {
+
+    color: white;
+    font-size: 100px;
+
+}
+
+.fa-hand-paper {
+
+    color: white;
+    font-size: 100px;
+
+}
+
+.fa-hand-scissors {
+
+    color: white;
+    font-size: 100px;
+
+}
+
+#resultMessage {
+
+    color: red;
+    font-size: 30px;
+
+}
+
+#score {
+
+    color: red;
+    font-size: 30px;
+}
+
+#winner {
+
+    color: red;
+    font-size: 30px;
+
+}
+
+#reset {
+
+    background-color: black;
+    font-family: 'Gloria Hallelujah', cursive; 
+    border: solid 0.5px;
+    padding: 15px;
+    margin: 20px 30px;
+    cursor: pointer;
+    color: white;
+
+}
